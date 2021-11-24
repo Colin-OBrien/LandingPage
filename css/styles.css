@@ -49,7 +49,6 @@ h1 {
     margin-bottom: 0px;
 }
 
-
 .signup {
     background-color: #3882f6;
     color: #f9faf8;
@@ -58,12 +57,75 @@ h1 {
     text-align: center;
 }
 
-/*done above this*/
-
-
 .mid-container {
     background-color:white;
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     padding: 0 150px 0 150px;
+    height: 50vh;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+    align-self: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.middle {
+    display: flex;
+    flex-direction: row;
+}
+
+.collage {
+    float: left;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 25px;
+    border: 5px solid #3882f6;
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+    flex: 1;
+    padding: 10px;
+
+}
+
+/*done above this*/
+
+.quote-container {
+    background-color: #e5e7eb;
+    display:flex;
+    flex-direction: column;
+    padding: 0 150px 0 150px;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container p {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+}
+
+.quote-container h4{
+    align-self: flex-end;
+}
+
+.footer-container {
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    padding: 0 150px 0 150px;
+    border: 5px solid goldenrod;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
 }
